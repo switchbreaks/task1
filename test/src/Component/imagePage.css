@@ -1,0 +1,60 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: brightness(0.50);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.h1classname {
+    color: white;
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 3rem;
+}
+.aboutSpantag{
+    color: rgb(204, 206, 207);
+    word-spacing: 1.75px;
+}
+.btnOnimage {
+    background-color: transparent;
+    border: 1px solid rgb(254, 252, 252);
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/*  small image  css age code */
+.changehight {
+    position: relative;
+    height: 30vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}

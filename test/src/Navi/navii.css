@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(198, 197, 197);
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover {
+    color: gray;
+  }
+  
+  .left-options {
+    display: flex;
+  }
+  
+  .right-options {
+    display: flex;
+  }
+  
